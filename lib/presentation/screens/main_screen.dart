@@ -50,8 +50,6 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final screenSize = MediaQuery.of(context).size;
-    final textTheme = Theme.of(context).textTheme;
     return Scaffold(
       appBar: const CustomAppBar(height: 80),
       body: Center(
